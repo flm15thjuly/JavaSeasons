@@ -1,0 +1,653 @@
+**********************
+Java Season - 1
+**********************
+
+*******************************
+Day 1 - 21 st august WEdnesday
+*******************************
+
+
+1996 
+
+Features of Java : 
+
+1) Simple 
+
+-> syntax is similar to c++ 
+-> removed most of  confusing or rarely used features 
+	explicit pointers 
+	operator overloading 
+	
+	+ - * / % 
+	
+	 
+	2 + 3 = 5  here + acts as addition
+	2 + 3 = 8  here +  acts as power 
+-> No need to remove unreferenced objects because java has Garbage collector 
+
+2) OO object oriented 
+
+OOP is a methodology that simply the appor s/w development and maintenance
+
+	- class
+	- object
+	- Encapsulation
+	- Polymorphism
+	- Inheritance
+	- Abstraction
+	
+3) Robust 
+
+	- Java uses Strong Memory managment 
+	- Automatic Garbage Collector 
+	- No pointers - avoids security problems 
+	- Exception handling 
+	
+4) Secure 
+
+5) Platform Independent (here Platform means OS operatoring system)
+
+Dev				user1		user2		user3		user 4
+
+Win8			win10		win11		ubuntu		macOS 
+
+app 			Yes			Yes			No			No				Platform Dependent
+				Yes			Yes			Yes			Yes 			Platform Independent
+				
+
+6) Architectural Neutral (Architectural means MicroProcessor and RAM )
+
+
+Dev 			user1		user2		user3		user 4
+
+i7				i3			celeron		AMD			CYREX
+
+app				Yes			Yes			No			No	     Not Architectural Neutral
+
+				Yes			Yes			Yes			Yes 
+
+7) Portable ==> Computer Architecture 
+
+
+			IBM				Apple 			Solaris 
+			
+			
+Dev 		user1 			user2
+
+IBM			Apple			Solaris
+
+app			No				No				No portable 
+
+			Yes				Yes             Portable 
+			
+Java is the first lang to become poratble 
+
+
+=============================================================
+
+Java :
+
+
+JSE 
+
+JDK 
+
+how to install jdk ?
+
+which version to downloaded ?
+
+Latest version Java 22
+JDK 21 is the latest long-term support release of Java SE Platform.
+
+
+Interview Q : which veriso  of java or jdk ?
+
+Ans : jdk 11 or JSE 11
+
+download jdk-11.0.24_windows-x64_bin.exe 
+
+??????????????????????????????????????
+Assignment 1
+
+Install jdk 11  and send the screenshot of below location
+
+C:\Program Files\Java\jdk-11
+
+send to below email id 
+
+flmtechteam.testing@gmail.com
+
+???????????????????????????????????????
+
+*******************************
+Day 2 - 22 nd august Thursday
+*******************************
+
+Java Configuration :
+
+telling OS where our jdk folder exists 
+
+In Environment Variables 
+
+JAVA_HOME
+
+C:\Program Files\Java\jdk-11
+
+path 
+
+C:\Program Files\Java\jdk-11\bin
+
+
+how to check java configuration :
+
+open cmd 
+
+C:\Users\Riyaz>java -version
+java version "11.0.24" 2024-07-16 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.24+7-LTS-271)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.24+7-LTS-271, mixed mode)
+
+------------------------------------------------------------------------
+JDK folders 
+
+									jdk
+									
+									
+			lib							bin						jre 
+
+
+lib : 	
+
+contains predefined stuff (API's) which helps in development or designing applictaions
+
+	
+
+								API  (Application Programming Interface)
+								 |
+								JAR  (Java Archive ~ zip file)
+								 |
+								Packages ( ~ folders)
+								 |
+							Classes 		Interfaces
+							  |				      |
+					----------------			---------------------
+				   |                |		   |					  |
+				Variables		Methods		Constants				Abstract MEthods
+												or
+											Fields
+							
+						
+
+
+bin / tools /commands : 
+
+javac  :  will compile a java file 
+
+syntax :  javac FileName.java 
+
+java : will excute the compile java file 
+
+syntax : java FileName
+
+
+
+
+jre : java runtime environment 
+
+
+			JVM (Java Virtual Machine) -> abstract machine (some tasks but no body)
+
+
+									JVM
+									|
+			  ------------------------------------------------------
+			  |                      |                  			|
+									
+			CLSS					 EE								GC
+									  |								 |
+							-----------------				------------------
+							|				 |				|				  |
+						 Interpreter		JIT			  Mark				Sweep
+											Compiler
+						BC -> MC 			(Just in Time)
+											Reptitive code / looping 
+											(high performance)
+			
+
+CLSS : Class Loader Subsystem 
+
+- loading 
+- linking
+- initialization 
+
+
+*******************************
+Day 3 - 23 rd august Friday
+*******************************
+EE : Execution Engine 
+
+Garbage Collector:
+
+System.gc();
+
+Runtime.gc();
+
+
+*************************************
+Structure of Java Program
+*************************************
+4 Sections 
+
+
+1. Documentation Section (optional)
+2. Package Section (optional)
+3. Import Section (based on your program)
+4. Class/Interface Section 	(compulsory)	
+									
+									
+Documentation Section  :
+
+also called comments 
+
+two types of comments 
+
+1. single line // kjhkjhkjh
+2. multiline comments 
+/*  lkjlkj
+kjhjkhjkh
+khjkhjkh */
+									
+
+2. Package Section
+
+logical grouping 
+
+
+package packagename;
+
+
+3. Import Section 
+
+
+Hello.java:17: error: cannot find symbol
+Scanner input=new Scanner(System.in);
+^
+  symbol:   class Scanner
+  location: class Hello
+Hello.java:17: error: cannot find symbol
+Scanner input=new Scanner(System.in);
+                  ^
+  symbol:   class Scanner
+  location: class Hello
+2 errors
+
+							
+java.util
+
+
+import packagename.*;  ==> not prefered in real time (because poor readabilty)
+
+import packagename.ClassName;
+
+
+Note : java.lang is base package of java program 
+ No need of import statement for the classes present in java.lang 
+
+
+*******************************
+Day 4 - 26th August Monday
+*******************************
+
+Class/Interface Section 	(compulsory)
+
+syntax :
+
+access-specifier access-modifier class ClassName 
+{
+
+//variables 
+
+//blocks
+
+//methods 
+
+
+}
+
+
+
+e.g access-specifier :  public , private , protected , <default> or <unspecified>
+
+e.g access-modifier : abstract , static , <default> or <unspecified>  etc ..
+
+// if you want to run a java file , you should have main method 
+					
+					
+typical class looks like this 
+
+public class Hello
+{
+
+
+public static void main(String[] args)
+{
+  local declarations
+  executable statements 
+  local declarations
+  executable statements 
+}
+
+}					
+
+D:\FLM15thJuly>java Sample
+Error: Main method not found in class Sample, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+
+
+**************************************
+Naming conventions in JAVA
+**************************************
+
+								Packages ( ~ folders)
+								  	|
+								------------------
+							    |				 |
+							Classes 		Interfaces
+							  |				      |
+					----------------			---------------------
+				   |                |		   |					  |
+				Variables		Methods		Constants				Abstract MEthods
+												or
+											Fields
+											
+											
+Packages : (all lower case)
+
+java.util
+
+org.openqa.selenium 
+
+regression 
+
+day1
+
+Classes or Interfaces :  TitleCase 
+
+RamaKrishna
+
+
+Scanner 
+
+System
+
+StringBuffer
+
+ChromeDriver
+
+Hello 
+
+Sample 
+
+ValidateLogin
+
+
+--------------------------------------
+
+Variables or Methods or Abstract Methods :  Camel Case (Lower Case + TitleCase)
+
+e.g for variables:
+
+x
+
+netSalary
+
+costOfItem
+
+noOfLinks 
+
+
+------------------------
+methods : will have ( 
+
+main(
+
+nextInt(
+
+println(
+
+calculateSimpleInterest(
+
+
+------------------------------------------------------
+
+Constants or Fields : All upper case 
+
+
+PI=3.14;
+
+MAX_LIMIT=10000;
+
+****************************************
+JAVA MEMORY BLOCKS
+****************************************
+
+1. Class Area / Method Area
+	- .Class File 
+	- Static Variables
+	- Static Methods 
+	
+2. Heap Area (Dynamic Memory Allocation)
+
+	-Object
+	-Arrays
+	
+3. Java Stack Area 
+
+	- Local Declarations or Local variables
+	- Expressions 
+	- Current running logic /code 
+	
+4. String Constant Pool Area 
+
+	only String literals e.g String s1="FLM";
+
+
+
+*******************************
+Day 5 - 27th August Tuesday
+*******************************
+
+^^^^^^^^^^^^^^^^^^^^^^^
+Variables in JAVA
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+-> reference to a memory blocks (holds data)
+
+use : to store or hold a value for re-use 
+
+int x=10;
+
+SI=P*T*R/100;   ==> simplifies the expressions 
+
+-> store once and recall anywhere in program
+
+Syntax :
+
+access-specifier access-modifier datatype variableName ; ==> declaration
+
+variableName=value; assignment or initialization
+
+access-specifier access-modifier datatype variableName = value ; ==> declaration and initialization
+
+
+=> variables are classified based on location and behaviour into 3 types 
+											
+									Variables 
+
+
+
+				Local					Instance				Static
+
+5 points 
+
+1. defnition?
+2. when the memory allocation ?
+3. Where memory allocation ?
+4. calling style ?
+5. life time or scope  ?
+
+									
+Local Variable : 											
+											
+1. defnition? 
+
+variables which are declared inside a method   
+
+2. when the memory allocation ?
+
+only when that method is called 
+
+3. Where memory allocation ?
+
+JAVA stack area 
+
+4. calling style ?
+
+variableName itself 
+
+
+5. life time or scope  ?	
+
+till the end of method 
+
+
+Note :  for local varibales it's the duty of programmer or developer to initialize some value 
+
+VariablesDemo1.java:15: error: variable y might not have been initialized
+System.out.println(y);
+                   ^
+
+Instance Variables :
+
+1. defnition?
+variable which are declared inside a class but outside of method (not having static keyword)
+
+2. when the memory allocation ?
+
+memory will be allocated only when object is created for that class 
+
+3. Where memory allocation ?
+
+Heap Area 
+
+4. calling style ?
+
+objectName.variableName
+
+5. life time or scope  ?
+
+till the last usage of object 				   
+											
+											
+*******************************
+Day 6 - 28th August WEdnesday
+*******************************	
+
+
+-----------------------
+Static Variables									
+											
+
+1. defnition?
+variable which are declared inside a class but outside of method having keyword static 
+
+2. when the memory allocation ?
+
+during .class file loading 
+
+3. Where memory allocation ?
+
+Class Area /Method Area 
+
+4. calling style ?
+
+ClassName.variableName
+
+5. life time or scope  ?
+
+till the end of program 
+
+Note : we will go for static when we have some data that is "common" and can be "shared accross" 
+											
+
+-----------------------------------------------------------------
+
+IDE : Integrated Development Environment
+
+-> Eclipse / IntelliJ Idea / Net beans / VSCode etc ..
+
+Eclipse : 
+
+https://www.eclipse.org/downloads/
+
+click on "Download Packages"
+
+Latest version is "Eclipse IDE 2024-09"	
+
+under "More Downloads"
+
+click  on Eclipse 2023-12 (4.30)
+
+Eclipse IDE for Enterprise Java and Web Developers  : 
+Windows x86_64 
+
+										
+????????????????????????????????????????????????????
+Assignment - 3
+
+Download eclipse and create a java project in it
+
+and send screenshot to below email id
+
+flmtechteam.testing@gmail.com
+
+
+????????????????????????????????????????????????????										
+
+
+*******************************
+Day 7 - 29th August Thursday
+*******************************	
+
+i=10 
+
+int i=10;
+
+
+										Datatypes 
+
+				Primitive 							Non-primitive Datatypes
+				
+				
+				
+Type mismatch: cannot convert from int to byte
+
+Type mismatch: cannot convert from int to short		
+
+The literal 2147483648 of type int is out of range 
+
+The literal 2147483648 of type int is out of range 			
+				
+
+Type mismatch: cannot convert from double to float
+
+Data Type	Size	Description
+byte	1 byte	Stores whole numbers from -128 to 127
+short	2 bytes	Stores whole numbers from -32,768 to 32,767
+int	4 bytes	Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long	8 bytes	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float	4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
+boolean	1 bit	Stores true or false values
+char	2 bytes	Stores a single character/letter or ASCII values									
