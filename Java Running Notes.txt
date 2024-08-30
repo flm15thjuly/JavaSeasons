@@ -651,3 +651,104 @@ float	4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal d
 double	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
 boolean	1 bit	Stores true or false values
 char	2 bytes	Stores a single character/letter or ASCII values									
+
+
+*******************************
+Day 8 - 30th August Friday
+*******************************	
+
+*******************************************************
+Methods In Java 
+*******************************************************
+Methods 
+	-> set of statements or instruction 
+	-> that performs particular task 
+	e.g println , nextInt()
+	
+	
+Advantages : 
+
+-> reusability
+-> code clarity
+-> avoids code redundancy 
+-> length of code reduces
+-> easy debugging of program
+
+syntax :
+
+access-specifier access-modifier return-type methodName(arguments/parameters)
+{
+local declarations;
+statements ;
+return value;
+
+}
+
+								Types 
+							
+							
+				1.non-static 					2.Static 	
+
+
+	non-static methods 			
+
+1. defnition?
+
+any method developed without static keyword  (<default> , final ,absrtact , etc ..)
+
+2. when the memory allocation ?
+
+during object creation 
+
+3. Where memory allocation ?
+
+Heap Area (along with objects)
+
+4. calling style ?
+
+objectName.methodName();
+
+5. life time or scope  ?							
+							
+till the last usage of object 
+
+
+---------------------------------------							
+							
+	Static Methods 
+	
+
+1. defnition?
+
+any method developed with static keyword
+
+
+2. when the memory allocation ?
+
+while loading of .class files 
+
+3. Where memory allocation ?
+
+Class Area / Method Area 
+
+4. calling style ?
+
+ClassName.methodName();
+
+5. life time or scope  ?	
+	
+till the end of program 	
+
+
+					 
+based on return-type and arguments/parameters 4 classifications 
+
+1) Methods  no return type and no arguments/parameters
+2) Methods no return-type and with arguments/parameters
+3) Methods with return-type and no  arguments/parameters
+4) Methods with return-type and arguments/parameters				
+					
+					
+					
+					
+					
