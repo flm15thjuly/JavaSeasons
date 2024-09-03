@@ -19,6 +19,8 @@ public class DataTypesDemo2 {
 		System.out.println(DataTypesDemo2.ch);
 		System.out.println(ch4);
 		System.out.println(status);
+		System.out.println();
+		System.out.println();
 		System.out.println(DataTypesDemo2.pass);
 		
 	}

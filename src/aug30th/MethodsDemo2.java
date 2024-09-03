@@ -23,6 +23,7 @@ public class MethodsDemo2 {
 
 	}
 	
+	// 1) Methods  no return type and no arguments/parameters
 	public void natSum1()
 	{
 		System.out.println("Enter a natural number ");
@@ -31,6 +32,9 @@ public class MethodsDemo2 {
 		int res=(n*(n+1))/2;
 		System.out.println(res);
 	}
+	
+	
+	//2) Methods no return-type and with arguments/parameters
 	
 	public void natSum2(int n)
 	{
