@@ -789,3 +789,78 @@ flmtechteam.testing@gmail.com
 
 ???????????????????????????????????????????????????????????
  
+ 
+**********************************
+OOP - Object Oriented Programming
+***********************************
+
+POP - Procedure Oriented Programming
+
+e.g C , PASCAL , FORTAN , COBOL etc ..
+
+
+Simula - First Object Oriented Programming
+
+Small talk - First pure Object Oriented Programming
+
+
+Rules or Concepts :
+
+Object
+Class
+Encapsulation
+Polymorphism
+Inheritance
+Abstraction
+
+
+-------------------------------------
+Object : 
+
+anything that exists is an object 
+
+e.g Fan , Man , Dog , bank account number 
+
+
+State - represent the data or attributes of an object 
+
+for e.g Dog : breed , gender ,color 
+for e.g bank account number : no of dgits , account type (checking , saving , current ) , IFSC code 
+
+Variables 
+----------------------------------------------------------
+Behaviour : represents the operations / tasks of an object 
+
+for e.g Dog :  eating , sleeping ,barking etc ..
+for e.g bank account number : Transfer funds , recieve money 
+
+methods 
+
+------------------------------------------------------------------------------
+
+Identity
+
+is a unique ID used by JVM to identify each object uniquely 
+
+-------------------------------------------------------------------------------------
+
+Class : Blue print or a Template from where we can create an object 
+
+class syntax :
+
+
+access-specifier access-modifier class ClassName
+{
+
+varibales;
+methods ;
+
+
+}
+
+=================================================
+Object Creation Techniques 
+=================================================
+1. using new operator
+
+ClassName objectName=new ClassName();
