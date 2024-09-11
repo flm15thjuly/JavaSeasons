@@ -2,13 +2,15 @@ package sep9th;
 
 public class Person {
 	
-	String name;
+	public String name;
 	
-	int age;
+	public int age;
 	
-	long phone;
+	public long phone;
 	
-	boolean status; 
+	public void greet()
+	{
+		System.out.println("Hi "+name+"..Good Morning ...");
+	}
 	
-
 }

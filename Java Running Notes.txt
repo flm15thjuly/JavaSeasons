@@ -864,3 +864,46 @@ Object Creation Techniques
 1. using new operator
 
 ClassName objectName=new ClassName();
+
+2. using Static Factory Method (SFM) 
+
+ClassName objectName=ClassName.methodName();
+
+3. using Non-Static Factory Method (NSFM) 
+
+ClassName1 object1=new ClassName1();
+
+ClassName2 object2=object1.methodName();
+
+XSSFWorkbook
+XSSFSheet
+
+XSSFWorkbook wb=new XSSFWorkbook();
+XSSFSheet ws=wb.getSheet();
+
+4. using cloning (used by developers) 
+
+5. using literals 
+
+ClassName object=value;
+
+e.g String str="FLM";
+
+Integer i=100;
+
+6. using deserialization 
+No syntax (implicite operation used by jvm) 
+
+
+
+===============================================
+Encapsulation
+===============================================
+
+Encapsulation in Java is a process of wrapping code and data together into a single unit, 
+for example, a capsule which is mixed of several medicines.
+
+
+Encapsulation = Data hiding + Abstraction
+
+The field Bank.balance is not visible
