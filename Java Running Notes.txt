@@ -907,3 +907,40 @@ for example, a capsule which is mixed of several medicines.
 Encapsulation = Data hiding + Abstraction
 
 The field Bank.balance is not visible
+
+
+Data hiding , we use private access-specifier 
+
+getters are public methods used to retrive or return private variable 
+
+setters are public methods to midify or alter or change the private 
+
+
+m1(int a,int b,int c)
+
+08:56:25
+
+
+PrintStream (java.io)
+
+
+print   ==> will print and stays in same line 
+
+*
+* *
+* * * * 
+* * * * *
+
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
+
+
+println ==> will print and moves the cursor to next line 
+
+printf  ==> will format the output as you wish and cursor will stay in same line 
+
+format ==> will format the output as you wish and cursor will stay in same line
+

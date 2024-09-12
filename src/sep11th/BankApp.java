@@ -12,6 +12,12 @@ public class BankApp {
 		Scanner input=new Scanner(System.in);
 		int p=input.nextInt();
 		c1.getBalance(p);
+		
+		c1.setBalance(2000);
+		
+		c1.getBalance(3214);
+		
+		
 
 	}
 

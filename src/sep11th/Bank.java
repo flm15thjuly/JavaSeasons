@@ -1,6 +1,6 @@
 package sep11th;
 
-public class Bank {
+ public class Bank {
 	
 	private double balance=10000;
 	
@@ -24,4 +24,9 @@ public class Bank {
 	
 	//setters
 
+	public void setBalance(double deposit)
+	{
+		
+		balance = balance + deposit;
+	}
 }
