@@ -944,3 +944,96 @@ printf  ==> will format the output as you wish and cursor will stay in same line
 
 format ==> will format the output as you wish and cursor will stay in same line
 
+
+*******************************
+Day  - 13th September Friday
+*******************************	
+
+this : 
+
+if we have local variable names same as instance variables , local variables will dominate .
+to overcome this situation we use this keyword to refer current calling object reference 
+- is a keyword cum operator
+- predefined non static variable 
+- this represents current calling object reference 					
+		
+		
+***************************
+Polymorphism
+***************************
+
+Poly means many 
+
+morph means forms 		
+
+
+							Polymorphism
+							
+							
+				Static 							Dynamic  (this will be discussed after inhertance topic)
+					or
+				Compile time					Runtime
+					or
+				Early Binding					Late Binding
+						
+hint : Binding means mapping of caller and called method 						
+							
+Static Polymorphism:
+ can be achived by 2 ways 
+
+- Operator Overloading (java doesn't support)
+- Method Overloading  
+			- difference in datatypes 
+				e.g add(int x,int y)
+					add(double x, double y)
+					add(long x,long y)
+			- show variance in no of arguments 	
+					add(int x,int y)
+					add(int x,int y,int z)
+			- change in order of arguments (few cases works not always better avoid this )
+				setDetails(int rollNo,String sName)
+				setDetails(String sName,int rollNo)
+							
+							
+The method add(int, int) in the type Sum is not applicable for the arguments (double, double)
+
+The method add(int, int) in the type Sum is not applicable for the arguments (long, long)	
+
+
+Method Signature = Method Name + Arguments 
+
+	Method Overloading is applicable for the methods present in same class 
+	
+	
+e.g from Java 
+
+
+println()
+println(boolean)
+println(char)
+println(char[])
+println(double)
+println(float)
+println(int)
+println(Object)
+println(String)
+println(long)
+
+
+??????????????????????????????????????????????????????
+
+Write a program to generate Aadhaar  number 
+
+Write a class called Aadhaar  
+
+getAadhaar
+
+e.g 2345 1456 7894
+
+hint: use (int) (Math.random()*10000)
+
+send this assignment to below email id 
+
+flmtechteam.testing@gmail.com 
+
+?????????????????????????????????????????????????????
