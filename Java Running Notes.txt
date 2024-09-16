@@ -1037,3 +1037,72 @@ send this assignment to below email id
 flmtechteam.testing@gmail.com 
 
 ?????????????????????????????????????????????????????
+
+*******************************
+Day  - 16th September Friday
+*******************************	
+
+
+					In OOPs
+				
+				
+		contructors 			destructors		
+				
+		java supports			java doesn't suuports
+		
+		
+		
+contructor:
+
+syntax :
+
+access-specifier ClassName(arguments/parameters)
+{
+local declarations;
+statements ;
+
+}	
+		
+		
+ChromeDriver (C): 
+
+new ChromeDriver(); ==> is a constructor given by selenium community , where it starts the chrome browser
+
+Def : 
+
+A constructor is nothing but method having same name as ClassName (case sensitive)
+
+rules and precautions :
+
+1) Constructor name must match the name of the class
+
+2) Constructor takes arguments/parameters but doen't have return-type 
+
+Q : what happens if we specify a return-type to constructor
+Ans : No error , it will be treated as a normal or concrete method 
+
+3) Constructors shouldn't have modifier 
+		
+		
+Q: what happens if we specify a modifier 
+
+Ans: Compilation Error :
+
+Illegal modifier for the constructor in type Sum; only public, protected & private are permitted
+
+4) access-specifier shold be either 
+
+public or protected 
+
+private or default are not prefered 
+
+
+									Constructors
+									
+									
+				default									parameterized 
+
+				or 
+				
+				no arguments 
+									

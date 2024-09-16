@@ -2,6 +2,10 @@ package sep13th;
 
 public class Sum {
 	
+	public   Sum()
+	{
+		System.out.println("You have entered constructor ...");
+	}
 	public void add(int x,int y)
 	{
 		System.out.println("Sum is "+(x+y));
