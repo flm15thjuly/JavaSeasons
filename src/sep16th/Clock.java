@@ -5,18 +5,23 @@ public class Clock {
 	int hr,min,sec;
 	
 	//default constructor
-		public Clock()
-		{
-			hr=10;
-			min=10;
-			sec=10;
+	public Clock()
+	{
+		
+		hr=10;
+		min=10;
+		sec=10;
 			
-		}
+	}
+	
 	
 	public Clock(int hr)
 	{
+		this();
 		this.hr=hr;
+	
 	}
+	
 	public Clock(int hr,int min)
 	{
 		this.hr=hr;
@@ -28,6 +33,7 @@ public class Clock {
 		this.min=min;
 		this.sec=sec;
 	}
+	
 	
 	public void getClock()
 	{
