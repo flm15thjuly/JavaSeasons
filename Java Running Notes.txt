@@ -1106,3 +1106,61 @@ private or default are not prefered
 				
 				no arguments 
 									
+									
+									
+									
+*******************************
+Day  - 18th September WEdnesday
+*******************************			
+
+Inheritance (cont ..)
+
+Simple 
+
+MultiLevel
+
+Hiererichal 
+
+
++++++++++++++++++++++
+Method Overriding
+++++++++++++++++++++++
+
+Def : The process of provding replacement for exiting method functionality 
+with seom new functionality .
+
+Dynamic or Runtime or Late binding Polymorphism
+
+	//case 1 
+		
+		//A obj=new A();
+		
+		//case 2
+		
+		//B obj=new B();
+		
+		//case 3
+		
+		//B obj=new A();  ==> not valid 
+		
+		//case 4
+		
+		A obj=new B();
+		
+		System.out.println(obj.x);
+		obj.m1();
+		
+
+===========================
+negative cases for Method overriding
+
+1) parent class access-specifier shouldn't be private 
+2) parent class shouldn't be declared as final (access-modifier)
+3) parent class access-modifier shouldn't be mentioned as static  ==>Method Overhiding 
+
+
+========================================================
+
+
+
+							

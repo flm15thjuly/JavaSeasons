@@ -1,24 +1,15 @@
 package sep17th;
 
-public class Add {
+public class Add extends Numbers {
 	
+	public Add()
+	{
+		System.out.println("This is Add's const....");
+	}
 	
-	int x,y;
-
-	public int getX() {
-		return x;
-	}
-
-	public void setX(int x) {
-		this.x = x;
-	}
-
-	public int getY() {
-		return y;
-	}
-
-	public void setY(int y) {
-		this.y = y;
+	public Add(int a)
+	{
+		this();
 	}
 	
 	public void sum()
