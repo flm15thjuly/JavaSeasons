@@ -1162,5 +1162,38 @@ negative cases for Method overriding
 ========================================================
 
 
+									
+*******************************
+Day  - 19th September Thursday
+*******************************			
 
-							
+Abstraction is nothing but showing the high level idea 
+and hiding or giving chance to next level to imagine or implement as per thier requirement.							
+
+
+							Abstraction
+					
+					
+			abstract class 						Interfaces
+			
+			(0 to 100 %) 						100%
+			
+			
+	Abstract Class : 		
+			
+	Cannot instantiate the type Numbers				
+	
+	
+Interface:
+
+syntax :
+
+access-specifier interface InterfaceName 
+{
+
+//constants or Fields 
+
+//abstract methods 
+
+
+}
