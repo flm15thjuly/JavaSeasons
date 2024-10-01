@@ -1197,3 +1197,45 @@ access-specifier interface InterfaceName
 
 
 }
+
+
+*******************************
+Day  - 1st October Tuesday
+*******************************		
+
+Operators in Java :
+
+
+Ternary Operators (Conditional operator or Decission making operator)
+
+? : ==> alternate if condition 
+
+	expr1 		? 	expr2 	: expr3 ;
+	
+	condition	   True	part  False part 			
+	or
+	Comparision
+
+	
+Concat Operator : 
+
++ 
+String s1="FLM";
+String s2="Java";
+
+System.out.println(s1+s2);  // FLMJava 
+
+member operator : 
+
+. 
+
+System.out.
+
+java.lang 
+
+this 
+
+new 
+
+instanceOf 
+
