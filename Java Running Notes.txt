@@ -1239,3 +1239,139 @@ new
 
 instanceOf 
 
+
+
+*******************************
+Day  - 3 rd  October Tuesday
+*******************************		
+
+				Flow Control or Control Flow statements
+				
+				
+				
+		Selection statements					Iterative 							Transfer
+		or										or									or
+		Decission making statements				Looping Statements					Jump statements
+		
+		i) if - else 						    i) while()							i) break
+		ii) switch								ii) do while()						ii) continue
+												iii) for loop 						iii) return
+												iv) for each loop 					iv) try - catch - finally
+																					v) Assert 
+																					
+																					
+Selection statements or 	Decission making statements	
+
+i) if - else
+
+if(Condition or expression which should give boolean )
+{
+//statements 
+
+}
+else 
+{
+//statements
+
+}
+
+																				
+																				
+Note :
+
+for String comparision == is not good choice 
+
+why ? because here refrences(memory alloctaion reference or id ) are compared 		not the value 
+
+then how ? use equals methods of String to compare values 
+
+
+Switch syntax :
+
+
+switch(expression or values or variable)
+{
+
+case value1 :  statements 
+			   break ;
+			   
+case value2 :  statements 
+			   break ;
+			   
+			   :
+			   :
+			   
+case valuen :  statements
+				break ;
+	
+default : statements	
+
+}
+
+
+expression or values or variable
+Accepted :
+
+byte
+short
+int -2147483648 to 2147483647
+char 
+String 
+
+
+
+Not accepted : 
+
+
+long +9223372036854775808 to  -9223372036854775808
+float 
+double 
+boolean 
+
+Cannot switch on a value of type long. Only convertible int values, strings or enum variables are permitted
+																
+	
+
+???????????????????????????????????????????????????
+Assignment 
+
+use Switch case to launch browser of your choice 
+
+chrome / firefox / edge 
+
+???????????????????????????????????????????????????????	
+
+
+
+Looping Statements or Iterative :
+
+
+
+for loop 
+
+	1				2	5	8			4 7
+for(initialization ; condition check ; step increment/ decrement)
+{
+
+statements   3  6
+
+
+}
+
+
+while loop :
+
+if you are not aware of how many times you want to excute the statements 
+
+syntax 
+
+intialization ;
+while(condition) 
+{
+
+statements 
+
+step increment/decrement;
+
+
+}
