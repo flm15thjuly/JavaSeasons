@@ -1375,3 +1375,23 @@ step increment/decrement;
 
 
 }
+
+
+syntax :
+
+
+do
+{
+body or statement;
+}
+while(condition);
+
+
+Jump statements or Transfer statements;
+
+break statement 
+
+continue statement 
+
+note : continue used to skip the remaining instructions in current iteration and continnue with next iteration
+
