@@ -1395,3 +1395,86 @@ continue statement
 
 note : continue used to skip the remaining instructions in current iteration and continnue with next iteration
 
+
+return : 
+
+******************************************
+Arrays
+
+what is an array ?
+
+
+int x=10;
+
+
+		10		20		30		40		50	
+	
+	a   0   	1   	2   	3   	4
+	
+	   a[0] 	a[1] 	a[2] 	a[3] 	a[4]
+		
+		x   y   z   a   b 
+		
+array is an index based collection of similar or homogenous data types elements having fixed length or size 
+
+syntax : 
+
+Method 1: 
+
+	access-specifier access-modifier datatype[] arrayName; declaration    e.g     int[] a ;
+	
+	arrayName={value1,value2...value3}           e.g        a={10,20,30,40,50}; initialization
+	
+	
+	
+	int x;  variable declaration
+	x=10;  assignment or intialization
+	
+	int x=10; varibale declaration and initialization
+	
+	syso(x);
+	
+	int[] a; array declaration
+	a={10,20,30,40,50}; array initialization
+	
+	int[] a={10,20,30,40,50}; Array declaration and initialization
+	
+	syso(a[0]);
+	syso(a[1]);
+	syso(a[2]);
+	syso(a[3]);
+	syso(a[4]);
+	
+	length : is a variable or field ==> which gives no of elements in an array 
+	
+	how to use : arrayName.length 
+	
+
+Method 2 : using new operator 
+
+		access-specifier access-modifier datatype[] arrayName; declaration  e.g  int[] a ;
+		
+		arrayName=new datatype[no of items]; initialization  e.g a=new int[5];
+		
+		access-specifier access-modifier datatype[] arrayName=new datatype[no of items];
+		
+		e.g int[] a=new int[5];
+		
+		
+Disadvantages of arrays :
+
+1) No growable nature 
+
+2) only store similar or homogenous datatypes 
+
+3) no predeined methods or data structures 
+
+
+	1	2	3	4	5
+	1	4	9	16	25
+	
+	datatype[][] a=new datatype[no of rows][no of colums];
+	
+	int[][] a=new int[2][5];
+	
+	
