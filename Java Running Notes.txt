@@ -1477,4 +1477,98 @@ Disadvantages of arrays :
 	
 	int[][] a=new int[2][5];
 	
-	
+===============================================================
+		Collection Framework (API) 
+		Packages 
+		Classes and Interfaces 
+		
+		
+										Iterable(I)
+										   |
+										Collection(I)
+											|
+					------------------------------------------------------
+					|
+					List(I)					Queue(I)					Set(I)
+					-ArrayList(C)											- HashSet(C)
+					-LinkedList(C)											- LinkedHashSet(C)
+					-Vector(C)												- SortedSet(I)
+					-Stack(C)												- TreeSet(C) 
+					
+					
+Methods in Collection (I) 
+
+add(E):boolean   here E is Element of any datatype
+
+size():int  here size means no of elements present in the collection 
+
+contains(Object):boolean
+
+isEmpty():boolean  
+
+------------------------------------------------------------
+
+Methods in List (I) :
+
+get(int):E 
+
+-------------------------------------------------------------
+
+ArrayList(C)
+
+
+ArrayList()
+ArrayList(int)
+ArrayList(Collection<? extends E>)
+
+
+------------------------------------------------------------------
+Generics 
+
+--------------------------------------------------------------------
+Enhanced for loop or For-each loop 
+
+applied for arrays and collections 
+
+
+for(datatype temp:arrayName or CollectionName)
+{
+
+//use temp 
+
+}
+
+int[] a=new int[5];
+
+		a[0]=10;
+		a[1]=200;
+		a[2]=300;
+		a[3]=400;
+		a[4]=50;
+		
+normal for loop :
+
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.println(a[i]);
+		}		
+		
+for each loop :
+	   for(int temp:a)
+	   {
+	     System.out.println(temp);
+	   }
+	   
+--------------------------------------------
+Methods in List (I) :
+
+no get method in Set 
+
+----------------------------------------------
+HashSet(C) : doesn't allow duplicates 
+
+HashSet()
+HashSet(int)
+HashSet(int, float)  here float means loading factor 
+HashSet(int, float, boolean)
+HashSet(Collection<? extends E>)
