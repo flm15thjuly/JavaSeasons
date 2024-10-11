@@ -38,6 +38,10 @@ public class ArrayListDemo1 {
 			System.out.println(al.get(i));
 		}
 		
+		for(Object obj:al)
+		{
+			System.out.println(obj);
+		}
 		
 
 	}
