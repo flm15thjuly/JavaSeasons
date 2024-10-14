@@ -1572,3 +1572,88 @@ HashSet(int)
 HashSet(int, float)  here float means loading factor 
 HashSet(int, float, boolean)
 HashSet(Collection<? extends E>)
+
+
+=======================================================
+VarArgs means Variable Arguments 
+
+we provide arguments in form of single dimensional array 
+
+access-specifier access-modifier return-type methodName(datatype... someArrayName)
+{
+
+// statements
+
+
+}
+
+=========================================================
+
+Error 
+
+
+			Compilation Error                    Logical Error     					Runtime Error 
+
+			Grammatical syntax 					programmer mistakes 				programmer mistakes 
+
+who 
+detects?	compiler							programmer /tester 					JVM 
+
+
+who 
+should 
+correct ?	programmer							programmer							Programmer
+
+
+
+Exception is nothing but error occuring at runtime
+
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at exceptions.Quotient.main(Quotient.java:16)
+	
+	
+	
+	
+try catch finally throws throw 
+
+
+try 
+{
+
+//risky code 
+
+}
+catch(Exception e)
+{
+
+//exception handling code or user friendly message 
+}	
+
+
+
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at exceptions.Quotient.main(Quotient.java:11)
+
+										Throwaable(C)
+										
+										
+							Exception(C)					Error(C)
+								|
+					------------------------------			
+					|							  |
+				Checked Exceptions		  UnChecked Exceptions
+
+					
+										
+getMessage():String
+printStackTrace():void 											
+											
+											
+											
+											
+											
