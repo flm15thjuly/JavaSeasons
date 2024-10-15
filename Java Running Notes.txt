@@ -1655,5 +1655,32 @@ printStackTrace():void
 											
 											
 											
-											
+try catch finally
+
+finally
+
+block which can hold some compulsory code to be executed 
+
+ 	
+valid combinations 
+
+
+try-catch
+try-finally
+try-catch-catch...   Note follow hiererchy bottom to top 
+try-catch-catch...finally
+
+=======================================================
+throw and throws 
+
+throws to tell compiler that we will handle checked exceptions 
+
+throw : 
+
+
+
+
+
+
+	
 											
